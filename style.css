@@ -1,0 +1,113 @@
+
+
+.heading {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 900;
+}
+
+.searchbar-container {
+    display: flex;
+    vertical-align: top;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.searchbar {
+    height: 50px;
+    width: 400px;
+    border: 1px solid red;
+    box-shadow: 1px 1px 0.15 red;
+    border-radius: 8px;
+}
+
+.searchbar::placeholder {
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+    font-size: 20px;
+    color: red;
+
+}
+
+
+.search-button {
+    height: 50px;
+    width: 80px;
+    background-color: rgb(218, 11, 11);
+    border: 1px solid red;
+    border-radius: 8px;
+    margin-left: 2px;
+    cursor: pointer;
+    color: white;
+    transition: opacity 0.15s;
+
+}
+
+.search-button:hover {
+    opacity: 0.7;
+}
+
+.container {
+    display: grid;
+grid-template-columns: 1fr 1fr 1fr;        
+
+}
+
+.container-image {
+    
+    justify-content: space-between;
+   width: fit-content;
+    padding: 5px;
+    transition: opacity 0.15s;
+    
+
+    
+
+
+
+}
+
+.container-image:hover {
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+.container-image img {
+    
+    width: 100%;
+    border-radius: 5px;
+    height: 300px;
+    width: auto;
+    
+}
+
+.container-image a {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(224, 24, 24);
+    font-size: 20px;
+    color: white;
+    margin-top: 2px;
+    text-decoration: none;
+    display: block;
+}
+
+.btn {
+    height: 50px;
+    width: 80px;
+    background-color: rgb(218, 11, 11);
+    border: 1px solid red;
+    border-radius: 8px;
+    margin-left: 2px;
+    cursor: pointer;
+    color: white;
+    transition: opacity 0.15s;
+    margin-bottom: 5px;
+    display: none;
+
+
+}
+
+.btn:hover {
+    opacity: 0.7;
+}
